@@ -36,10 +36,12 @@ I didn't reproduce real time prediction which is available in original repositor
 * Real-time prediction & drift detection: [4-Real-time_prediction_with_concept_drift_adaptation.ipynb](https://github.com/Western-OC2-Lab/OASW-Concept-Drift-Detection-and-Adaptation/blob/main/4-Real-time_prediction_with_concept_drift_adaptation.ipynb)   
   * [Real-time prediction video](https://github.com/Western-OC2-Lab/OASW-Concept-Drift-Detection-and-Adaptation/blob/main/Real-time_prediction.mp4)
 
-Sea concept data is taken from: https://github.com/leslin1010/SeaConceptDataset/tree/main 
-Edge IIoT: https://www.kaggle.com/datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot
-IoT ID 20: https://www.kaggle.com/datasets/rohulaminlabid/iotid20-dataset
-Smoke Detection Data: https://www.kaggle.com/datasets/deepcontractor/smoke-detection-dataset/data
+Dataset used:
+* NSL-KDD: https://www.unb.ca/cic/datasets/nsl.html
+* Sea concept data: https://github.com/leslin1010/SeaConceptDataset/tree/main 
+* Edge IIoT: https://www.kaggle.com/datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot
+* IoT ID 20: https://www.kaggle.com/datasets/rohulaminlabid/iotid20-dataset
+* Smoke Detection Data: https://www.kaggle.com/datasets/deepcontractor/smoke-detection-dataset/data
 
 
 ### Requirements & Libraries  
