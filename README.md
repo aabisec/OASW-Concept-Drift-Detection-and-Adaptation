@@ -20,10 +20,12 @@ NSL-KDD dataset, a popular network traffic dataset for intrusion detection probl
 
 ### Code  
 There are four folders: NSL-KDD, IoT ID 20, Edge IIoT dataset, XGB with NSL-KDD data. 
-*NSL-KDD and IoT ID 20 is the reproduction of experiments presented in paper.
-*Edge IIoT dataset contains replication of experiment with Edge IIoT dataset.
-*XGB with NSL-KDD data is replication using XGB ML model instead of Light GBM.
+* NSL-KDD and IoT ID 20 is the reproduction of experiments presented in paper.
+* Edge IIoT dataset contains replication of experiment with Edge IIoT dataset.
+* XGB with NSL-KDD data is replication using XGB ML model instead of Light GBM.
+
 Files in every folders are like these
+
 * Dataset pre-processing  
 * Static machine learning algorithm development
 * Proposed OASW drift detection method implementation
