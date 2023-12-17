@@ -23,6 +23,8 @@ There are four folders: NSL-KDD, IoT ID 20, Edge IIoT dataset, XGB with NSL-KDD 
 * NSL-KDD and IoT ID 20 is the reproduction of experiments presented in paper.
 * Edge IIoT dataset contains replication of experiment with Edge IIoT dataset.
 * XGB with NSL-KDD data is replication using XGB ML model instead of Light GBM.
+* Synthetic sea dataset is used to check multiple drift and how model will react to that.
+* Smoke Detection data is just use for observing the model for purpose other than Intrusion Detection System.  
 
 Files in every folders are like these
 
@@ -33,6 +35,12 @@ Files in every folders are like these
 I didn't reproduce real time prediction which is available in original repository because this uses py QT visualization which is not possible on Google Colab and while running on my machine it gets stuck and not responding.  
 * Real-time prediction & drift detection: [4-Real-time_prediction_with_concept_drift_adaptation.ipynb](https://github.com/Western-OC2-Lab/OASW-Concept-Drift-Detection-and-Adaptation/blob/main/4-Real-time_prediction_with_concept_drift_adaptation.ipynb)   
   * [Real-time prediction video](https://github.com/Western-OC2-Lab/OASW-Concept-Drift-Detection-and-Adaptation/blob/main/Real-time_prediction.mp4)
+
+Sea concept data is taken from: https://github.com/leslin1010/SeaConceptDataset/tree/main 
+Edge IIoT: https://www.kaggle.com/datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot
+IoT ID 20: https://www.kaggle.com/datasets/rohulaminlabid/iotid20-dataset
+Smoke Detection Data: https://www.kaggle.com/datasets/deepcontractor/smoke-detection-dataset/data
+
 
 ### Requirements & Libraries  
 * Python 3.6+
