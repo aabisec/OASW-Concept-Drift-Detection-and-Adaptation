@@ -19,6 +19,10 @@ NSL-KDD dataset, a popular network traffic dataset for intrusion detection probl
 * Publicly available at: [[1]](https://www.unb.ca/cic/datasets/nsl.html) [[2]](https://github.com/jmnwong/NSL-KDD-Dataset)   
 
 ### Code  
+There are four folders: NSL-KDD, IoT ID 20, Edge IIoT dataset, XGB with NSL-KDD data. 
+NSL-KDD and IoT ID 20 is the reproduction of experiments presented in paper.
+Edge IIoT dataset contains replication of experiment with Edge IIoT dataset.
+XGB with NSL-KDD data is replication using XGB ML model instead of Light GBM.
 * Dataset pre-processing: [1-Data_pre-processing_NSL-KDD.ipynb](https://github.com/Western-OC2-Lab/OASW-Concept-Drift-Detection-and-Adaptation/blob/main/1-Data_pre-processing_NSL-KDD.ipynb)   
 * Static machine learning algorithm development: [2-Conventional_or_static_machine_learning_algorithms.ipynb](https://github.com/Western-OC2-Lab/OASW-Concept-Drift-Detection-and-Adaptation/blob/main/2-Conventional_or_static_machine_learning_algorithms.ipynb)   
 * Proposed OASW drift detection method implementation: [3-OASW_for_concept_drift_detection&adaptation.ipynb](https://github.com/Western-OC2-Lab/OASW-Concept-Drift-Detection-and-Adaptation/blob/main/3-OASW_for_concept_drift_detection%26adaptation.ipynb)   
