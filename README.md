@@ -20,12 +20,15 @@ NSL-KDD dataset, a popular network traffic dataset for intrusion detection probl
 
 ### Code  
 There are four folders: NSL-KDD, IoT ID 20, Edge IIoT dataset, XGB with NSL-KDD data. 
-NSL-KDD and IoT ID 20 is the reproduction of experiments presented in paper.
-Edge IIoT dataset contains replication of experiment with Edge IIoT dataset.
-XGB with NSL-KDD data is replication using XGB ML model instead of Light GBM.
-* Dataset pre-processing: [1-Data_pre-processing_NSL-KDD.ipynb](https://github.com/Western-OC2-Lab/OASW-Concept-Drift-Detection-and-Adaptation/blob/main/1-Data_pre-processing_NSL-KDD.ipynb)   
-* Static machine learning algorithm development: [2-Conventional_or_static_machine_learning_algorithms.ipynb](https://github.com/Western-OC2-Lab/OASW-Concept-Drift-Detection-and-Adaptation/blob/main/2-Conventional_or_static_machine_learning_algorithms.ipynb)   
-* Proposed OASW drift detection method implementation: [3-OASW_for_concept_drift_detection&adaptation.ipynb](https://github.com/Western-OC2-Lab/OASW-Concept-Drift-Detection-and-Adaptation/blob/main/3-OASW_for_concept_drift_detection%26adaptation.ipynb)   
+*NSL-KDD and IoT ID 20 is the reproduction of experiments presented in paper.
+*Edge IIoT dataset contains replication of experiment with Edge IIoT dataset.
+*XGB with NSL-KDD data is replication using XGB ML model instead of Light GBM.
+Files in every folders are like these
+* Dataset pre-processing  
+* Static machine learning algorithm development
+* Proposed OASW drift detection method implementation
+
+I didn't reproduce real time prediction which is available in original repository because this uses py QT visualization which is not possible on Google Colab and while running on my machine it gets stuck and not responding.  
 * Real-time prediction & drift detection: [4-Real-time_prediction_with_concept_drift_adaptation.ipynb](https://github.com/Western-OC2-Lab/OASW-Concept-Drift-Detection-and-Adaptation/blob/main/4-Real-time_prediction_with_concept_drift_adaptation.ipynb)   
   * [Real-time prediction video](https://github.com/Western-OC2-Lab/OASW-Concept-Drift-Detection-and-Adaptation/blob/main/Real-time_prediction.mp4)
 
